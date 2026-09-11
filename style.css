@@ -7,9 +7,19 @@ body {
     color: white;
     height: 100vh;
     box-sizing: border-box;
+
+}
+.titulo {
+    font-size: 60px;
+}
+.subtitulo {
+    font-size: 20px;
 }
 .titulo-destaque {
     color: deepskyblue;
+}
+.paragrafo {
+    font-size: 30px;
 }
 .conteudo {
     display: flex;
@@ -18,5 +28,5 @@ body {
     margin: 10% 20%;
 }
 .imagem {
-    width: 250px;
+    width: 350px;
 }
