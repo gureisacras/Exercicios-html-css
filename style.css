@@ -5,7 +5,13 @@
 body {
     background-color: #0d1420;
     color: white;
+    height: 100vh;
+    box-sizing: border-box;
 }
 .titulo-destaque {
     color: deepskyblue;
+}
+.conteudo {
+    display: flex;
+    justify-content: space-between;
 }
