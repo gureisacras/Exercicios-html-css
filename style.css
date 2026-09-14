@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -7,19 +8,23 @@ body {
     color: white;
     height: 100vh;
     box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
 
 }
 .titulo {
     font-size: 60px;
+    font-family: "DM Sans", sans-serif;
 }
 .subtitulo {
     font-size: 20px;
+    font-family: "DM Sans", sans-serif
 }
 .titulo-destaque {
     color: deepskyblue;
 }
 .paragrafo {
     font-size: 30px;
+    font-family: "DM Sans", sans-serif;
 }
 .links {
     display: flex;
@@ -28,7 +33,7 @@ body {
 .botao {
     width: 280px;
     text-align: center;
-    border-radius: 16px;
+    border-radius: 80px;
     font-size: 24px;
     padding: 20px 20px;
     text-decoration: none;
@@ -40,12 +45,18 @@ body {
 }
 .links_github {
     background-color: aqua;
+    font-weight: 400;
 }
 .conteudo {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 10% 20%;
+}
+.conteudo-textual {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 .imagem {
     width: 350px;
