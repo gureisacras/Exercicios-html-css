@@ -21,6 +21,26 @@ body {
 .paragrafo {
     font-size: 30px;
 }
+.links {
+    display: flex;
+    justify-content: space-around;
+}
+.botao {
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: white;
+}
+.links_instagram {
+    background-color: #0d1420;
+    border: 2px solid deepskyblue;
+}
+.links_github {
+    background-color: aqua;
+}
 .conteudo {
     display: flex;
     justify-content: space-between;
