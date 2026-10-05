@@ -1,70 +1,148 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+/* RESET */
+
 * {
     margin: 0;
     padding: 0;
 }
+
+
+/* BODY */
+
 body {
     background-color: #0d1420;
     color: white;
     height: 100vh;
     box-sizing: border-box;
     font-family: "DM Sans", sans-serif;
+}
 
-}
-.titulo {
-    font-size: 60px;
-    font-family: "DM Sans", sans-serif;
-}
-.subtitulo {
-    font-size: 20px;
-    font-family: "DM Sans", sans-serif
-}
-.titulo-destaque {
-    color: deepskyblue;
-}
-.paragrafo {
-    font-size: 30px;
-    font-family: "DM Sans", sans-serif;
-}
-.links {
+
+/* CABEÇALHO */
+
+.cabecalho {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 20%;
+    padding-top: 20px;
 }
-.botao {
-    width: 280px;
-    text-align: center;
-    border-radius: 80px;
-    font-size: 24px;
-    padding: 20px 20px;
+
+
+/* MENU */
+
+.menu {
+    display: flex;
+    gap: 50px;
+}
+
+.menu a {
     text-decoration: none;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
 }
-.links_instagram {
-    background-color: #0d1420;
-    border: 2px solid deepskyblue;
+
+.menu a:hover {
+    color: deepskyblue;
 }
-.links_github {
-    background-color: aqua;
-    font-weight: 400;
-}
+
+
+/* CONTEÚDO PRINCIPAL */
+
 .conteudo {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     margin: 10% 20%;
 }
+
+
+/* PARTE DOS TEXTOS */
+
 .conteudo-textual {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
+
+
+/* TEXTOS */
+
+.subtitulo {
+    font-size: 20px;
+}
+
+.titulo {
+    font-size: 60px;
+}
+
+.titulo-destaque {
+    color: deepskyblue;
+}
+
+.paragrafo {
+    font-size: 30px;
+}
+
+
+/* ÁREA DOS BOTÕES */
+
+.links {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* ESTILO GERAL DOS BOTÕES */
+
+.botao {
+    width: 280px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    text-align: center;
+
+    border-radius: 80px;
+
+    font-size: 24px;
+
+    padding: 20px 20px;
+
+    text-decoration: none;
+
+    color: white;
+}
+
+
+/* INSTAGRAM */
+
+.links_instagram {
+    background-color: #0d1420;
+    border: 2px solid deepskyblue;
+}
+
+
+/* GITHUB */
+
+.links_github {
+    background-color: aqua;
+    font-weight: 400;
+}
+
+
+/* FOTO */
+
 .imagem {
     width: 350px;
     height: 350px;
+
     border-radius: 50%;
+
     object-fit: cover;
 }
